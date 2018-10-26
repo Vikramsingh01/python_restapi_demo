@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PythonRESTapiTesting_Demo.iml" filepath="$PROJECT_DIR$/.idea/PythonRESTapiTesting_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_RESTapiTesting_Demo.iml" filepath="$PROJECT_DIR$/.idea/Python_RESTapiTesting_Demo.iml" />
     </modules>
   </component>
