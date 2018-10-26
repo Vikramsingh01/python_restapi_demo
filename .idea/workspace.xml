@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3ef0abb-13a6-406f-bef1-b33984d897ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e3ef0abb-13a6-406f-bef1-b33984d897ac" name="Default" comment="registration done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/CRUD_RunnerWithReporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/CRUD_RunnerWithReporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/behave.ini" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/behave.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/feature_files_folder/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/feature_files_folder/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +23,8 @@
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="2" />
@@ -44,11 +35,13 @@
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,7 +51,7 @@
           <entry key="gitattributes" value="1" />
           <entry key="ini" value="1" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="28" />
+          <entry key="py" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -66,54 +59,57 @@
           <entry key="Cucumber" value="3" />
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="28" />
+          <entry key="Python" value="42" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="24" />
-          <entry key="feature" value="345" />
-          <entry key="py" value="580" />
+          <entry key="feature" value="368" />
+          <entry key="py" value="1463" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="344" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="604" />
+          <entry key="Cucumber" value="367" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Python" value="1487" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="68">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/keys.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="116" column="46" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="46" />
+            <state relative-caret-position="20">
+              <caret line="268" column="77" lean-forward="true" selection-start-line="268" selection-start-column="77" selection-end-line="268" selection-end-column="77" />
               <folding>
-                <element signature="e#43#85#0" expanded="true" />
-                <marker date="1540538510756" expanded="true" signature="1922:1923" ph="..." />
+                <marker date="1540557655143" expanded="true" signature="1862:1863" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/tt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,26 +127,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http_request_body</find>
-      <find>allure_behave</find>
-      <find>requests</find>
-      <find>json2html</find>
-      <find>Set POST api endpoint as</find>
-      <find>Set HEADER param request content type as</find>
-      <find>Set HEADER param response accept type as</find>
-      <find>Raise &quot;POST&quot; HTTP request</find>
-      <find>Raise &quot;POST&quot; HTTP requestValid HTTP response should be received</find>
-      <find>Response http code should</find>
-      <find>Response BODY should not be null or empty</find>
-      <find>Response BODY parsing for</find>
       <find>Raise</find>
       <find>Set BODY form param using basic user detailsSet BODY form param using basic user details</find>
-      <find>Set BODY form param using basic user details</find>
       <find>zion resident</find>
-      <find>Response http code should be</find>
       <find>Response BODY</find>
       <find>response_full</find>
       <find>Response HEADER content type should be</find>
+      <find>Response BODY parsing</find>
+      <find>Response BODY should not be null or empty</find>
+      <find>Response HEADER content type</find>
+      <find>Response BODY parsin</find>
+      <find>Set Query param as</find>
+      <find>header</find>
+      <find>headers</find>
+      <find>Response</find>
+      <find>Response http code should be</find>
+      <find>status_code</find>
+      <find>Response BODY parsing for</find>
+      <find>http_request_header</find>
+      <find>basic_application_URL</find>
+      <find>Response http code should</find>
+      <find>Set BODY form param using basic user details</find>
+      <find>HTTP request</find>
+      <find>param response accept typ</find>
+      <find>Accept</find>
+      <find>http_request_header['Accept']</find>
+      <find>Response http code sh</find>
+      <find>http_request_url_query_param</find>
+      <find>POST api endpoint</find>
+      <find>Registration_api_endpoint</find>
+      <find>post_api_endpoint</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,8 +171,9 @@
         <option value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/myTest.py" />
         <option value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/postcall.py" />
         <option value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/keys.py" />
-        <option value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py" />
+        <option value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/tt.py" />
         <option value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" />
+        <option value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py" />
       </list>
     </option>
   </component>
@@ -195,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,10 +239,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="BuildoutCfg" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -336,15 +344,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_RESTapiTesting_Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/tt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.CRUD_RunnerWithReporting" />
       <item itemvalue="Python.myTest" />
       <item itemvalue="Python.postcall" />
       <item itemvalue="Python.CRUD_RunnerWithReporting (1)" />
+      <item itemvalue="Python.tt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.CRUD_RunnerWithReporting (1)" />
+        <item itemvalue="Python.tt" />
         <item itemvalue="Python.postcall" />
         <item itemvalue="Python.myTest" />
         <item itemvalue="Python.CRUD_RunnerWithReporting" />
@@ -362,22 +393,39 @@
       <option name="presentableId" value="Default" />
       <updated>1506885466051</updated>
     </task>
+    <task id="LOCAL-00001" summary="registration done">
+      <created>1540538924010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540538924010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="639" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24851191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20089285" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45652175" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40118578" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32806325" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32806325" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23517786" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -394,6 +442,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="registration done" />
+    <option name="LAST_COMMIT_MESSAGE" value="registration done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/__init__.py">
@@ -425,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/CRUD_RunnerWithReporting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -446,26 +491,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/keys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/behave/matchers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="116" column="46" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="46" />
+        <state relative-caret-position="93">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/allure_commons/_allure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/behave/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/behave/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="803" selection-start-line="803" selection-end-line="803" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/behave/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/CRUD_RunnerWithReporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="898" column="13" lean-forward="true" selection-start-line="898" selection-start-column="13" selection-end-line="898" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/tt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="83" />
           <folding>
-            <element signature="e#43#85#0" expanded="true" />
-            <marker date="1540538510756" expanded="true" signature="1922:1923" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="68">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_SimpleRESTapiTesting/features/steps/step_def_CRUD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="268" column="77" lean-forward="true" selection-start-line="268" selection-start-column="77" selection-end-line="268" selection-end-column="77" />
+          <folding>
+            <marker date="1540557655143" expanded="true" signature="1862:1863" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

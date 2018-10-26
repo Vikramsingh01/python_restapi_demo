@@ -14,7 +14,7 @@ Feature: REST API testing framework using REST Assured library and Validate HTTP
     And Response http code should be 201
     And Response HEADER content type should be "text/html"
     And Response BODY should not be null or empty
-    #And Response BODY parsing for "POST__register" should be successful
+    And Response BODY parsing for "POST__register" should be successful
 
 #  Scenario: User Login After Registration -Successful
 #    Given Set POST api endpoint as "/api/login"
@@ -40,7 +40,7 @@ Feature: REST API testing framework using REST Assured library and Validate HTTP
 #    And Response http code should be 200
 #    And Response HEADER content type should be "application/json"
 #    And Response BODY should not be null or empty
-   # And Response BODY parsing for "PUT__modify_account_profile_details" should be successful
+   # And Response BODY parsing for "PUT__updateUser" should be successful
 
 #  Scenario: DELETE request example
 #    Given Perform setup for DELETE request
