@@ -3,7 +3,7 @@
 
 from behave import given, when, then, step
 import requests
-
+from SimpleRESTapiTesting.features.steps.keys import *
 
 global_general_variables = {}
 http_request_header = {}
@@ -45,6 +45,11 @@ def step_impl(context, post_api_endpoint):
     global_general_variables['POST_api_endpoint'] = post_api_endpoint
 
 
+@given(u'Updating user Details')
+def step_impl(context):
+    print('Updating User Details')
+
+
 @when(u'Set PUT api endpoint as "{put_api_endpoint}"')
 def step_impl(context, put_api_endpoint):
     global_general_variables['PUT_api_endpoint'] = put_api_endpoint
@@ -78,17 +83,24 @@ def step_impl(context, http_request_type):
     elif 'POST' == http_request_type:
         url_temp += global_general_variables['POST_api_endpoint']
         http_request_url_query_param.clear()
-        global_general_variables['response_full'] = requests.post(url_temp,
+        if (url_temp == 'https://reqres.in/api/register'):
+            global_general_variables['response_full'] = requests.post(url_temp,
+                                                                      headers=http_request_header,
+                                                                      params=http_request_url_query_param,
+                                                                      data=http_request_body['RegistrationDetails'])
+        else:
+            global_general_variables['response_full'] = requests.post(url_temp,
                                                                   headers=http_request_header,
                                                                   params=http_request_url_query_param,
-                                                                  data=http_request_body)
+                                                                  data=http_request_body['LoginDetails'])
+
     elif 'PUT' == http_request_type:
         url_temp += global_general_variables['PUT_api_endpoint']
         http_request_url_query_param.clear()
         global_general_variables['response_full'] = requests.put(url_temp,
                                                                  headers=http_request_header,
                                                                  params=http_request_url_query_param,
-                                                                 data=http_request_body)
+                                                                 data=http_request_body['UpdateUserDetails'])
     elif 'DELETE' == http_request_type:
         url_temp += global_general_variables['DELETE_api_endpoint']
         http_request_body.clear()
@@ -129,8 +141,9 @@ def step_impl(context):
 
 @when(u'Set BODY form param using basic user details')
 def step_impl(context):
-    http_request_body['name'] = 'sydney@fife'
-    http_request_body['job'] = 'pistol'
+    http_request_body['RegistrationDetails'] = RegistrationDetails
+    http_request_body['LoginDetails'] = LoginDetails
+    http_request_body['UpdateUserDetails'] = UpdateUserDetails
 
 
 # @given(u'Perform setup for DELETE request')
@@ -262,28 +275,23 @@ def step_impl(context):
 #                                                              data=http_request_body)
 #
 #
-# @when(u'Modify BODY form param first name as "{new_first_name}" and last name as "{new_last_name}"')
+# @when(u'Modify BODY form param first name as "{new_name}" and last name as "{new_job}"')
 # def step_impl(context, new_first_name, new_last_name):
-#     http_request_body['signin_firstname'] = new_first_name
-#     http_request_body['signin_lastname'] = new_last_name
-#     http_request_body['signin_emailid'] = global_general_variables['email']
-#     http_request_body['signin_password'] = global_general_variables['password']
-#     http_request_body['signin_gender'] = global_general_variables['gender']
-#     http_request_body['latest_session_key'] = global_general_variables['latest_session_key']
+#     http_request_body['signin_firstname'] = new_name
+#     http_request_body['signin_lastname'] = new_job
 
 
 @then(u'Response BODY parsing for "{body_parsing_for}" should be successful')
 def step_impl(context, body_parsing_for):
     current_json = global_general_variables.get('response_full').json()
     if 'POST__register' == body_parsing_for:
-        print(current_json.text)
+        print(current_json['token'])
     elif 'POST__login' == body_parsing_for:
-        global_general_variables['activation_key'] = current_json['Payload']
-        print('Payload  or activation key  :\n' + global_general_variables['activation_key'])
+        print(current_json['token'])
     elif 'PUT__updateUser' == body_parsing_for:
-        print('Activity status               : ' + current_json['Additional message'])
-        print('Additional message      : ' + current_json['Activity status'])
-        print('Payload                          : ' + current_json['Payload'])
+        print('Update Name : ' + current_json['name'])
+        print('Update Job : ' + current_json['job'])
+        print('Updated Details : ' + current_json['updatedAt'])
     elif 'DELETE__signout' == body_parsing_for:
         print('Activity status               : ' + current_json['Additional message'])
         print('Additional message      : ' + current_json['Activity status'])
