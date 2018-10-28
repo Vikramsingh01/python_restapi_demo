@@ -66,8 +66,7 @@ def step_impl(context, query_param):
         http_request_url_query_param.clear()
     else:
         http_request_url_query_param.clear()
-        http_request_url_query_param['signout_emailid'] = global_general_variables['email']
-        http_request_url_query_param['session_id'] = global_general_variables['latest_session_key']
+        http_request_url_query_param['page'] = int(query_param)
 
 
 @when(u'Raise "{http_request_type}" HTTP request')
@@ -90,9 +89,9 @@ def step_impl(context, http_request_type):
                                                                       data=http_request_body['RegistrationDetails'])
         else:
             global_general_variables['response_full'] = requests.post(url_temp,
-                                                                  headers=http_request_header,
-                                                                  params=http_request_url_query_param,
-                                                                  data=http_request_body['LoginDetails'])
+                                                                      headers=http_request_header,
+                                                                      params=http_request_url_query_param,
+                                                                      data=http_request_body['LoginDetails'])
 
     elif 'PUT' == http_request_type:
         url_temp += global_general_variables['PUT_api_endpoint']
@@ -146,141 +145,6 @@ def step_impl(context):
     http_request_body['UpdateUserDetails'] = UpdateUserDetails
 
 
-# @given(u'Perform setup for DELETE request')
-# def step_impl(context):
-#     # sign up POST
-#     global_general_variables['POST_api_endpoint'] = 'signup'
-#     global_general_variables['email'] = global_general_variables['email'].replace('01', '02')  # some random number
-#     http_request_header['content-type'] = 'application/x-www-form-urlencoded'
-#     http_request_header['Accept'] = 'application/json'
-#     http_request_body['signup_emailid'] = global_general_variables['email']
-#     http_request_body['signup_password'] = global_general_variables['password']
-#     http_request_body['signup_firstname'] = global_general_variables['first_name']
-#     http_request_body['signup_lastname'] = global_general_variables['last_name']
-#     http_request_body['signup_gender'] = global_general_variables['gender']
-#     http_request_body['signup_secret_question_1'] = global_general_variables['signup_secret_question_1']
-#     http_request_body['signup_secret_question_2'] = global_general_variables['signup_secret_question_2']
-#     http_request_body['signup_secret_question_1_answer'] = global_general_variables['signup_secret_question_1_answer']
-#     http_request_body['signup_secret_question_2_answer'] = global_general_variables['signup_secret_question_2_answer']
-#     http_request_url_query_param.clear()
-#     url_temp = global_general_variables['basic_application_URL']
-#     url_temp += global_general_variables['POST_api_endpoint']
-#     global_general_variables['response_full'] = requests.post(url_temp,
-#                                                               headers=http_request_header,
-#                                                               params=http_request_url_query_param,
-#                                                               data=http_request_body)
-#     current_json = global_general_variables['response_full'].json()
-#     global_general_variables['activation_key'] = current_json['Payload']
-#     # activate GET
-#     global_general_variables['ACTIVATE_api_endpoint'] = 'activate'
-#     http_request_header['content-type'] = 'application/json'
-#     http_request_header['Accept'] = 'application/json'
-#     http_request_body.clear()
-#     http_request_url_query_param.clear()
-#     http_request_url_query_param['signup_emailid'] = global_general_variables['email']
-#     http_request_url_query_param['account_basic_activatation_key'] = global_general_variables['activation_key']
-#     url_temp = global_general_variables['basic_application_URL']
-#     url_temp += global_general_variables['ACTIVATE_api_endpoint']
-#     global_general_variables['response_full'] = requests.get(url_temp,
-#                                                              headers=http_request_header,
-#                                                              params=http_request_url_query_param,
-#                                                              data=http_request_body)
-#     # signin POST
-#     global_general_variables['SIGNIN_api_endpoint'] = 'signin'
-#     http_request_header['content-type'] = 'application/x-www-form-urlencoded'
-#     http_request_header['Accept'] = 'application/json'
-#     http_request_body.clear()
-#     http_request_body['signin_emailid'] = global_general_variables['email']
-#     http_request_body['signin_password'] = global_general_variables['password']
-#     http_request_url_query_param.clear()
-#     url_temp = global_general_variables['basic_application_URL']
-#     url_temp += global_general_variables['SIGNIN_api_endpoint']
-#     global_general_variables['response_full'] = requests.post(url_temp,
-#                                                               headers=http_request_header,
-#                                                               params=http_request_url_query_param,
-#                                                               data=http_request_body)
-#     current_json = global_general_variables['response_full'].json()
-#     global_general_variables['latest_session_key'] = current_json['Payload']
-#
-#
-# @given(u'Perform setup for PUT request')
-# def step_impl(context):
-#     # sign up POST
-#     global_general_variables['POST_api_endpoint'] = 'signup'
-#     global_general_variables['email'] = global_general_variables['email'].replace('01', '03')  # some random number
-#     http_request_header['content-type'] = 'application/x-www-form-urlencoded'
-#     http_request_header['Accept'] = 'application/json'
-#     http_request_body['signup_emailid'] = global_general_variables['email']
-#     http_request_body['signup_password'] = global_general_variables['password']
-#     http_request_body['signup_firstname'] = global_general_variables['first_name']
-#     http_request_body['signup_lastname'] = global_general_variables['last_name']
-#     http_request_body['signup_gender'] = global_general_variables['gender']
-#     http_request_body['signup_secret_question_1'] = global_general_variables['signup_secret_question_1']
-#     http_request_body['signup_secret_question_2'] = global_general_variables['signup_secret_question_2']
-#     http_request_body['signup_secret_question_1_answer'] = global_general_variables['signup_secret_question_1_answer']
-#     http_request_body['signup_secret_question_2_answer'] = global_general_variables['signup_secret_question_2_answer']
-#     http_request_url_query_param.clear()
-#     url_temp = global_general_variables['basic_application_URL']
-#     url_temp += global_general_variables['POST_api_endpoint']
-#     global_general_variables['response_full'] = requests.post(url_temp,
-#                                                               headers=http_request_header,
-#                                                               params=http_request_url_query_param,
-#                                                               data=http_request_body)
-#     current_json = global_general_variables['response_full'].json()
-#     global_general_variables['activation_key'] = current_json['Payload']
-#     # activate GET
-#     global_general_variables['ACTIVATE_api_endpoint'] = 'activate'
-#     http_request_header['content-type'] = 'application/json'
-#     http_request_header['Accept'] = 'application/json'
-#     http_request_body.clear()
-#     http_request_url_query_param.clear()
-#     http_request_url_query_param['signup_emailid'] = global_general_variables['email']
-#     http_request_url_query_param['account_basic_activatation_key'] = global_general_variables['activation_key']
-#     url_temp = global_general_variables['basic_application_URL']
-#     url_temp += global_general_variables['ACTIVATE_api_endpoint']
-#     global_general_variables['response_full'] = requests.get(url_temp,
-#                                                              headers=http_request_header,
-#                                                              params=http_request_url_query_param,
-#                                                              data=http_request_body)
-#     # signin POST
-#     global_general_variables['SIGNIN_api_endpoint'] = 'signin'
-#     http_request_header['content-type'] = 'application/x-www-form-urlencoded'
-#     http_request_header['Accept'] = 'application/json'
-#     http_request_body.clear()
-#     http_request_body['signin_emailid'] = global_general_variables['email']
-#     http_request_body['signin_password'] = global_general_variables['password']
-#     http_request_url_query_param.clear()
-#     url_temp = global_general_variables['basic_application_URL']
-#     url_temp += global_general_variables['SIGNIN_api_endpoint']
-#     global_general_variables['response_full'] = requests.post(url_temp,
-#                                                               headers=http_request_header,
-#                                                               params=http_request_url_query_param,
-#                                                               data=http_request_body)
-#     current_json = global_general_variables['response_full'].json()
-#     global_general_variables['latest_session_key'] = current_json['Payload']
-#     #   basic_account_profile_details GET
-#     global_general_variables['GET_ACCOUNT_PROFILE_DETAILS_api_endpoint'] = 'get_account_profile_details'
-#     http_request_header['content-type'] = 'application/json'
-#     http_request_header['Accept'] = 'application/json'
-#     http_request_body.clear()
-#     http_request_url_query_param.clear()
-#     http_request_url_query_param['signin_emailid'] = global_general_variables['email']
-#     http_request_url_query_param['signin_password'] = global_general_variables['password']
-#     http_request_url_query_param['latest_session_key'] = global_general_variables['latest_session_key']
-#     url_temp = global_general_variables['basic_application_URL']
-#     url_temp += global_general_variables['GET_ACCOUNT_PROFILE_DETAILS_api_endpoint']
-#     global_general_variables['response_full'] = requests.get(url_temp,
-#                                                              headers=http_request_header,
-#                                                              params=http_request_url_query_param,
-#                                                              data=http_request_body)
-#
-#
-# @when(u'Modify BODY form param first name as "{new_name}" and last name as "{new_job}"')
-# def step_impl(context, new_first_name, new_last_name):
-#     http_request_body['signin_firstname'] = new_name
-#     http_request_body['signin_lastname'] = new_job
-
-
 @then(u'Response BODY parsing for "{body_parsing_for}" should be successful')
 def step_impl(context, body_parsing_for):
     current_json = global_general_variables.get('response_full').json()
@@ -292,11 +156,8 @@ def step_impl(context, body_parsing_for):
         print('Update Name : ' + current_json['name'])
         print('Update Job : ' + current_json['job'])
         print('Updated Details : ' + current_json['updatedAt'])
-    elif 'DELETE__signout' == body_parsing_for:
-        print('Activity status               : ' + current_json['Additional message'])
-        print('Additional message      : ' + current_json['Activity status'])
-        print('Payload                          : ' + current_json['Payload'])
-        global_general_variables['session id'] = ''
-        # print('Response token   : ' + current_json['Additional message'])
-        # print('signup_emailid   : ' + current_json['Payload'].get('signup_emailid'))
-        # print('signup_password   : ' + current_json['Payload'].get('signup_password'))
+    elif 'GET__UsersList' == body_parsing_for:
+        print('page : ' + str(current_json['page']))
+        print('per page : ' + str(current_json['per_page']))
+        print('total : ' + str(current_json['total']))
+        print('total_pages : ' + str(current_json['total_pages']))
