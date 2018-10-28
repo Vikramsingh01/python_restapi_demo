@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3ef0abb-13a6-406f-bef1-b33984d897ac" name="Default" comment="final changes">
+    <list default="true" id="e3ef0abb-13a6-406f-bef1-b33984d897ac" name="Default" comment=" reporting done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/0273c1f5-f7a0-4a75-b897-512cc403cd2e-attachment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/1b2f893d-aa01-45e4-8269-1e902e5942f6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/2712e238-1605-4325-97ee-631ad82db1da-attachment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/73d46bfe-e54a-4f4d-9170-4c8b42a1746e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/75cfd645-8594-4bfa-9d86-bffb67c0634f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/8cf4c390-e26c-4211-ae53-6c517daa58de-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/cb78506c-9167-479a-8672-8c799956f6f6-attachment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/e11d7a65-2537-4e7f-a560-808aa8d47ca3-attachment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/reporting_folder_json_html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/steps/LoginSuccess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/steps/RegisterSuccess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/steps/keys.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/steps/updateReq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/steps/weather_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/CRUD_RunnerWithReporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRESTapiTesting/features/RunnerWithReporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/reporting_folder_json_html/671f41c8-d0cf-45ad-9592-2abc77bbaa7a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/reporting_folder_json_html/709810ae-74bf-4f9a-b4dc-fd08b522814b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/reporting_folder_json_html/96f6974e-9663-4194-bbf5-2576015ea5f9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/reporting_folder_json_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRESTapiTesting/features/reporting_folder_json_html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/step_def_CRUD.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/step_def_CRUD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/tt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe_License.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe_License.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,35 +92,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="2" />
-          <entry key="py" value="19" />
+          <entry key="feature" value="3" />
+          <entry key="gitattributes" value="1" />
+          <entry key="md" value="1" />
+          <entry key="py" value="22" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="2" />
-          <entry key="Python" value="19" />
+          <entry key="Cucumber" value="3" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="feature" value="136" />
+          <entry key="md" value="28" />
           <entry key="py" value="885" />
-          <entry key="txt" value="13" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="136" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Markdown" value="28" />
+          <entry key="PLAIN_TEXT" value="29" />
           <entry key="Python" value="885" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/step_def_CRUD.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#43#85#0" expanded="true" />
+                <marker date="1540710594279" expanded="true" signature="1542:1580" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -203,6 +204,9 @@
         <option value="$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/tt.py" />
         <option value="$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/step_def_CRUD.py" />
         <option value="$PROJECT_DIR$/SimpleRESTapiTesting/features/feature_files_folder/Simple_REST_API_Testing.feature" />
+        <option value="$PROJECT_DIR$/license/ReadMe_License.txt" />
+        <option value="$PROJECT_DIR$/ReadMe_License.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -255,7 +259,14 @@
               <item name="python_restapi_demo" type="462c0819:PsiDirectoryNode" />
               <item name="SimpleRESTapiTesting" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="reporting_folder_json_html" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_files_folder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_restapi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_restapi_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleRESTapiTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,8 +434,27 @@
       <option name="project" value="LOCAL" />
       <updated>1540662277579</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" reporting">
+      <created>1540711014877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540711014877</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" reporting done">
+      <created>1540711181740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540711181740</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_SimpleRESTapiTesting - 2018.10.28 at 12h 44m 35s.xml">
+      <configuration name="Unittests in SimpleRESTapiTesting" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,6 +467,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -468,7 +499,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="registration done" />
     <MESSAGE value="final changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="final changes" />
+    <MESSAGE value=" reporting" />
+    <MESSAGE value=" reporting done" />
+    <option name="LAST_COMMIT_MESSAGE" value=" reporting done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,9 +532,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cfg" />
     <entry file="file://$PROJECT_DIR$/Demo01_SimpleRESTapiTesting/features/feature_files_folder/vik.feature" />
     <entry file="file://$PROJECT_DIR$/SimpleRESTapiTesting/features/feature_files_folder/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pip/_vendor/urllib3/response.py">
@@ -610,21 +640,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/step_def_CRUD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="152" column="43" lean-forward="true" selection-start-line="152" selection-start-column="43" selection-end-line="152" selection-end-column="43" />
-          <folding>
-            <element signature="e#43#85#0" expanded="true" />
-            <marker date="1540710594279" expanded="true" signature="1542:1580" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/keys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license/ReadMe_License.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe_License.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleRESTapiTesting/features/RunnerWithReporting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -635,10 +687,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleRESTapiTesting/features/RunnerWithReporting.py">
+    <entry file="file://$PROJECT_DIR$/SimpleRESTapiTesting/features/steps/step_def_CRUD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#43#85#0" expanded="true" />
+            <marker date="1540710594279" expanded="true" signature="1542:1580" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

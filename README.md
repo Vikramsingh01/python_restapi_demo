@@ -1,4 +1,3 @@
-# Python_Behave_Demo
+# Python_restapi_Demo
+#author: Vikram Singh
 
-Please refer to PPT attached in PPT folder.
-Please refer to my YouTube channel 'imademethink' for detailed explaination
